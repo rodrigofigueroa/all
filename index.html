@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <!-- Essential Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Allz | Asesoría Profesional en Seguros Allianz México - Plan de Retiro e Inversiones</title>
+  <meta name="description" content="Asesoría profesional en seguros Allianz. Plan de retiro e inversiones con rendimientos competitivos. Agenda tu consultoría gratuita hoy. +15 años de experiencia.">
+  <meta name="keywords" content="seguros allianz méxico, plan de retiro, inversiones allianz, asesoría financiera, fondos indexados, retiro seguro">
+  <meta name="author" content="Allz Asesoría">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Spanish">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://allianz.solvenz.com.mx/">
+  <meta property="og:title" content="Allz - Tu Asesor de Confianza en Seguros Allianz">
+  <meta property="og:description" content="Protege tu futuro con asesoría profesional en seguros. Plan de retiro e inversiones con Allianz México.">
+  <meta property="og:image" content="https://allianz.solvenz.com.mx/assets/img/og-image.jpg">
+  <meta property="og:locale" content="es_MX">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Allz - Asesoría en Seguros Allianz México">
+  <meta name="twitter:description" content="Plan de retiro e inversiones con rendimientos competitivos. Asesoría gratuita.">
+  <meta name="twitter:image" content="https://allianz.solvenz.com.mx/assets/img/twitter-image.jpg">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://allianz.solvenz.com.mx/">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://player.vimeo.com">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "Allz Asesoría",
+    "description": "Asesoría profesional en seguros Allianz, plan de retiro e inversiones",
+    "url": "https://allianz.solvenz.com.mx/",
+    "logo": "https://allianz.solvenz.com.mx/assets/img/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ciudad de México",
+      "addressCountry": "MX"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "email": "contacto@allz.com.mx",
+      "availableLanguage": "Spanish"
+    },
+    "openingHours": "Mo-Fr 10:00-14:00,16:00-19:00 Sa 08:00-12:00",
+    "areaServed": {
+      "@type": "Country",
+      "name": "México"
+    }
+  }
+  </script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    figure img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .logoImg {
+      width: 200px;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    :root {
+      --primary-color: #003781;
+      --secondary-color: #0066CC;
+      --accent-color: #00A3E0;
+      --text-dark: #1a1a1a;
+      --text-light: #666;
+      --bg-light: #f8f9fa;
+      --white: #ffffff;
+      --gradient: linear-gradient(135deg, #003781 0%, #0066CC 100%);
+      --shadow-sm: 0 2px 8px rgba(0, 55, 129, 0.08);
+      --shadow-md: 0 4px 16px rgba(0, 55, 129, 0.12);
+      --shadow-lg: 0 8px 32px rgba(0, 55, 129, 0.16);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: var(--text-dark);
+      overflow-x: hidden;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    .cards-video {
+      flex-direction: row;
+    }
+
+    /* Navigation */
+    nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: var(--shadow-sm);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+
+    nav.scrolled {
+      box-shadow: var(--shadow-md);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--primary-color);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--gradient);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 500;
+      transition: color 0.3s;
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent-color);
+      transition: width 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: var(--secondary-color);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .cta-button {
+      font-size: 1rem;
+      background: var(--gradient);
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: inline-block;
+      border-width: 0px;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 90vh;
+      background: url('./assets/img/desktop/3.jpg');
+      /* background: var(--gradient); */
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+      opacity: 0.3;
+    }
+
+    .hero:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: var(--gradient);
+      opacity: 0.5;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    .hero-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-content h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: white;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    .hero-content p {
+      font-size: 1.25rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 2rem;
+      animation: fadeInUp 0.8s ease 0.2s backwards;
+    }
+
+    .hero-container .hero-image{
+      width: auto;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      animation: fadeInUp 0.8s ease 0.4s backwards;
+    }
+
+    .btn-primary {
+      font-size: 1rem;
+      background: white;
+      color: var(--primary-color);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+      box-shadow: var(--shadow-md);
+      border-width: 0px;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      padding: 1rem 2rem;
+      border: 2px solid white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .btn-secondary:hover {
+      background: white;
+      color: var(--primary-color);
+    }
+
+    .hero-image {
+      position: relative;
+      animation: fadeInRight 1s ease;
+      width: 40%;
+    }
+
+    /* Multi-step Form */
+    .consultation-form {
+      background: white;
+      border-radius: 16px;
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .form-header {
+      background: white;
+      padding: 2rem 2rem 1rem;
+      text-align: center;
+    }
+
+    .form-header h2 {
+      color: var(--primary-color);
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+      line-height: 1.3;
+    }
+
+    .form-header .step-title {
+      color: var(--primary-color);
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-header p {
+      color: var(--primary-color);
+      font-size: 1.25rem;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+    }
+
+    .progress-bar {
+      display: flex;
+      gap: 0;
+      margin-bottom: 0;
+    }
+
+    .progress-step {
+      flex: 1;
+      height: 8px;
+      background: #e0e0e0;
+      position: relative;
+    }
+
+    .progress-step.active {
+      background: #5cb85c;
+    }
+
+    .progress-step.completed {
+      background: #5cb85c;
+    }
+
+    .progress-label {
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.875rem;
+      color: var(--text-light);
+      white-space: nowrap;
+    }
+
+    .form-content {
+      padding: 2.5rem 2rem;
+      background: white;
+    }
+
+    .form-step {
+      display: none;
+    }
+
+    .form-step.active {
+      display: block;
+      animation: fadeInUp 0.4s ease;
+    }
+
+    .form-question {
+      font-size: 1.125rem;
+      font-weight: 500;
+      color: var(--text-dark);
+      margin-bottom: 1.5rem;
+    }
+
+    .form-options {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .radio-option {
+      position: relative;
+    }
+
+    .radio-option input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+    }
+
+    .radio-option label {
+      display: flex;
+      align-items: center;
+      padding: 1rem 1.25rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-size: 1rem;
+    }
+
+    .radio-option label:before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      margin-right: 1rem;
+      flex-shrink: 0;
+      transition: all 0.3s;
+    }
+
+    .radio-option input[type="radio"]:checked+label {
+      border-color: var(--primary-color);
+      background: rgba(0, 55, 129, 0.05);
+    }
+
+    .radio-option input[type="radio"]:checked+label:before {
+      border-color: var(--primary-color);
+      background: var(--primary-color);
+      box-shadow: inset 0 0 0 3px white;
+    }
+
+    .form-input-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-input-group label {
+      display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-dark);
+      margin-bottom: 0.5rem;
+    }
+
+    .form-input-group input {
+      width: 100%;
+      padding: 0.875rem 1rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    .form-input-group input:focus {
+      outline: none;
+      border-color: var(--primary-color);
+    }
+
+    .privacy-link {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .privacy-link a {
+      color: var(--primary-color);
+      text-decoration: underline;
+      font-size: 0.95rem;
+    }
+
+    .form-navigation {
+      display: flex;
+      gap: 1rem;
+      padding: 1.5rem 2rem;
+      background: var(--primary-color);
+    }
+
+    .btn-nav {
+      flex: 1;
+      padding: 1rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .btn-prev {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+
+    .btn-prev:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-next {
+      background: white;
+      color: var(--primary-color);
+    }
+
+    .btn-next:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-next:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-submit {
+      background: #5cb85c;
+      color: white;
+    }
+
+    .btn-submit:hover {
+      background: #4cae4c;
+    }
+
+    /* Video Section */
+
+    .video-section {
+      padding: 6rem 2rem;
+      background: white;
+    }
+
+    .video-container-wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .video-wrapper {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .video-intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .video-intro h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .video-intro p {
+      font-size: 1.425rem;
+      color: var(--text-light);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .video-features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .video-feature {
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    .video-feature-icon {
+      width: 60px;
+      height: 60px;
+      background: var(--gradient);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .video-feature h4 {
+      font-size: 1.125rem;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .video-feature p {
+      color: var(--text-light);
+      font-size: 0.95rem;
+    }
+
+    /* Services Section */
+    .services {
+      padding: 6rem 2rem;
+      background: var(--bg-light);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .section-header h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .section-header p {
+      font-size: 1.125rem;
+      color: var(--text-light);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-icon {
+      width: 60px;
+      height: 60px;
+      background: var(--gradient);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: white;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-card h3 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .service-card p {
+      color: var(--text-light);
+      line-height: 1.7;
+    }
+
+    /* Features Section */
+    .features {
+      padding: 6rem 2rem;
+      background: white;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem;
+      margin-top: 3rem;
+    }
+
+    .feature-item {
+      text-align: center;
+    }
+
+    .feature-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, rgba(0, 55, 129, 0.1), rgba(0, 163, 224, 0.1));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 2rem;
+    }
+
+    .feature-item h3 {
+      font-size: 1.25rem;
+      color: var(--primary-color);
+      margin-bottom: 0.75rem;
+    }
+
+    .feature-item p {
+      color: var(--text-light);
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 6rem 2rem;
+      background: var(--gradient);
+      text-align: center;
+      color: white;
+    }
+
+    .cta-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-section p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--text-dark);
+      color: white;
+      padding: 4rem 2rem 2rem;
+    }
+
+    .footer-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-section h4 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-section ul {
+      list-style: none;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-section a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-section a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .tl-h2 {
+      font-size: 2rem;
+    }
+
+    .condu {
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .condu figure {
+      max-width: 50%;
+    }
+
+    .condu figure img {
+      width: 100%;
+    }
+
+     .hero-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            transform: rotate(-2deg);
+            transition: transform 0.3s;
+        }
+
+        .hero-card:hover {
+            transform: rotate(0deg) scale(1.05);
+        }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Mobile Menu */
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--primary-color);
+    }
+
+    /* Legales */
+
+    .footer-bottom p a {
+      color: var(--bg-light);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .hero-content h1 {
+        font-size: 2.5rem;
+      }
+
+      .nav-links {
+        display: none;
+        position: absolute;
+        bottom: -235px;
+        left: 0;
+        flex-direction: column;
+        background: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links.close {
+        display: none;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .services-grid,
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .section-header h2 {
+        font-size: 2rem;
+      }
+
+      .hero-image {
+        order: -1;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .cards-video {
+        flex-direction: column;
+      }
+
+      .condu {
+        padding: 50px 0px;
+      }
+
+      .condu figure {
+        max-width: 80%;
+      }
+
+      .video-wrapper {
+        width: 100%;
+      }
+
+      .hero-image {
+        width: 100%;
+      }
+      .logoImg {
+        width: 110px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo" aria-label="Logo">
+        <figure class="logoImg">
+          <img src="./assets/img/desktop/logo.png" alt="Logo de Allianz">
+        </figure>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#inicio" aria-label="Inicio">Inicio</a></li>
+        <li><a href="#servicios" aria-label="Servicios">Servicios</a></li>
+        <li><a href="#nosotros" aria-label="Nosotros">Nosotros</a></li>
+        <li><a href="#contacto" aria-label="Contacto">Contacto</a></li>
+      </ul>
+      <a href="#inicio" class="cta-button" aria-label="Agendar asesoría gratuita">📅 Agenda <span class="hidden">Tu Asesoría</span> Gratis</a>
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="inicio">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>Protege lo que más te importa</h1>
+        <p>Asesoría profesional en seguros Allianz. Soluciones personalizadas para tu tranquilidad y la de tu familia.
+        </p>
+        <div class="hero-buttons">
+          <button id="btn_3" class="btn-primary" aria-label="Solicitar Asesoría">Solicitar Asesoría</button>
+          <a href="#servicios" class="btn-secondary" aria-label="Ver Servicios">Ver Servicios</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="consultation-form">
+          <div class="form-header">
+            <h2>Agenda ahora mismo<br>tu asesoría aquí.</h2>
+            <p class="step-title">Paso 1:</p>
+            <p>Selecciona ahora tu asesoría</p>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-step active" data-step="1">
+            </div>
+            <div class="progress-step" data-step="2">
+            </div>
+            <div class="progress-step" data-step="3">
+            </div>
+            <div class="progress-step" data-step="4">
+            </div>
+          </div>
+
+          <div class="form-content">
+            <!-- Step 1: Advisory Type -->
+            <div class="form-step active" data-step="1">
+              <div class="form-question">¿En que asesoría estás interesado?</div>
+              <div class="form-options">
+                <div class="radio-option">
+                  <input type="radio" name="asesoria" id="retirement" value="Plan de Retiro">
+                  <label for="retirement">Plan de Retiro</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="asesoria" id="indexed" value="inversión">
+                  <label for="indexed">Inversión</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 2: Budget -->
+            <div class="form-step" data-step="2">
+              <div class="form-question">¿Presupuesto que te gustaría ahorrar al mes? *</div>
+              <div class="form-options">
+                <div class="radio-option">
+                  <input type="radio" name="presupuesto" id="budget1" value="menos de 2000">
+                  <label for="budget1">Menos de $2,000.</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="presupuesto" id="budget2" value="2000-3000">
+                  <label for="budget2">$2,000 a $3,000.</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="presupuesto" id="budget3" value="4000-5000">
+                  <label for="budget3">$4,000 a $5,000.</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="presupuesto" id="budget4" value="mayor de 5000">
+                  <label for="budget4">Más de $5,000 pesos mensuales.</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 3: Age -->
+            <div class="form-step" data-step="3">
+              <div class="form-question">¿Cuál es tu edad? *</div>
+              <div class="form-options">
+                <div class="radio-option">
+                  <input type="radio" name="edad" id="age1" value="<25">
+                  <label for="age1">Menos de 25 años</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="edad" id="age2" value="26-40">
+                  <label for="age2">Entre 26 y 40 años</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="edad" id="age3" value="41-50">
+                  <label for="age3">Entre 41 y 50 años</label>
+                </div>
+                <div class="radio-option">
+                  <input type="radio" name="edad" id="age4" value=">50">
+                  <label for="age4">Más de 50 años</label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Step 4: Contact Info -->
+            <div class="form-step" data-step="4">
+              <div class="form-input-group">
+                <label for="name">Nombre Completo *</label>
+                <input type="text" id="name" name="name" placeholder="Adriana" required>
+              </div>
+              <div class="form-input-group">
+                <label for="phone">Teléfono *</label>
+                <input type="tel" id="phone" name="phone" placeholder="55 5689 7855" required maxlength="10">
+              </div>
+              <div class="form-input-group">
+                <label for="email">Correo electrónico *</label>
+                <input type="email" id="email" name="email" placeholder="merenganito@gmail.com" required>
+              </div>
+              <div class="privacy-link">
+                <a href="https://www.allianz.com.mx/legales/legales-mexico/legales-allianz.html#privacidad" target="_blank">Política de Privacidad</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-navigation">
+            <button type="button" class="btn-nav btn-prev" id="prevBtn" style="display: none;" aria-label="ANTERIOR">
+              ← ANTERIOR
+            </button>
+            <button type="button" class="btn-nav btn-next" id="nextBtn" aria-label="Siguiente">
+              SIGUIENTE →
+            </button>
+          </div>
+        </div>
+    </div>
+      
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="video-section" id="servicios">
+    <div class="video-container-wrapper">
+      <div class="video-intro">
+        <h2>Un plan diseñado para crecer contigo</h2>
+        <p>Simple, accesible y con excelentes rendimientos.
+        </p>
+        <p>
+          Tú eliges cuánto aportar y cómo construir tu retiro ideal.
+        </p>
+      </div>
+
+      <div class="video-wrapper">
+        <div style="padding:177.78% 0 0 0;position:relative;"><iframe
+            src="https://player.vimeo.com/video/1108490426?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 20px;"
+            title="Bienvenida Allz"></iframe></div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <section>
+
+    <section class="container" id="nosotros">
+      <article class="flex cards-video">
+        <article class="video-feature">
+          <article class="video-feature-icon">📋</article>
+          <h4>Proceso Simple</h4>
+          <p>Te explicamos paso a paso cómo proteger tu patrimonio</p>
+        </article>
+        <article class="video-feature">
+          <article class="video-feature-icon">💡</article>
+          <h4>Asesoría Clara</h4>
+          <p>Sin letra pequeña, todo explicado de manera transparente</p>
+        </article>
+        <article class="video-feature">
+          <article class="video-feature-icon">🤝</article>
+          <h4>Acompañamiento Total</h4>
+          <p>Te acompañamos en cada etapa del proceso</p>
+        </article>
+      </article>
+    </section>
+
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>¿Por qué elegir Allianz?</h2>
+        <p>Tu asesor de confianza respaldado por Allianz</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🎯</div>
+          <h3>Asesoría Personalizada</h3>
+          <p>Analizamos tus necesidades para ofrecerte la mejor solución</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <h3>Respuesta Rápida</h3>
+          <p>Atención inmediata y gestión eficiente de tus solicitudes</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🏆</div>
+          <h3>Respaldo Allianz</h3>
+          <p>Líder mundial en seguros con más de 130 años de experiencia</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📱</div>
+          <h3>Servicio Digital</h3>
+          <p>Gestiona tus pólizas desde cualquier lugar de forma segura</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="contacto">
+    <div class="container">
+      <h2>¿Listo para proteger tu futuro?</h2>
+      <p>Contáctanos hoy y recibe una cotización sin compromiso</p>
+      <div class="hero-buttons" style="justify-content: center;">
+        <a href="#inicio" id="btn_4" class="btn-primary" aria-label="Hablar Con Un Asesor">Hablar con un asesor</a>
+        <a href="#inicio" class="btn-primary" id="btn_2" aria-label="Agenda Tu Asesoría Gratis">
+          Agenda Tu Asesoría Gratis
+        </a>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="condu">
+    <figure>
+      <img src="./assets/img/desktop/condusef.png" alt="Conducef">
+    </figure>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h4>Allz</h4>
+        <p>Asesoría profesional en seguros Allianz. Protegiendo familias y empresas mexicanas desde 2008.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios" aria-label="Plan de Retiro">Plan de Retiro</a></li>
+          <li><a href="#servicios" aria-label="Inversiones">Inversiones</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contacto</h4>
+        <ul>
+          <li>📧 allz.retiroyfinanzas@gmail.com</li>
+          <li>
+            <a href="https://www.instagram.com/agenteallianz.ramirezd?igsh=YWtkcnllcXBoc3Q3&utm_source=qr">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Horarios</h4>
+        <ul>
+          <li>Lunes a Viernes: 10:00am - 2:00pm y de 4:00am - 7:00pm</li>
+          <li>Sábados: 8:00am - 12:00pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Allz Asesoría. Todos los derechos reservados. | Allianz® es una marca registrada.</p>
+      <p>
+        <a href="https://www.allianz.com.mx/legales/legales-mexico/legales-allianz.html#privacidad" target="_blank" aria-label="Aviso de privacidad">Aviso de privacidad</a>
+        <a href="https://www.allianz.com.mx/legales/legales-mexico/legales-allianz.html#unidad" target="_blank" aria-label="Información legal">Información legal</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+
+    // Multi-step form logic
+    let currentStep = 1;
+    const totalSteps = 4;
+    const formData = {};
+
+    const nextBtn = document.getElementById('nextBtn');
+    const prevBtn = document.getElementById('prevBtn');
+
+    function updateProgress() {
+      document.querySelectorAll('.progress-step').forEach((step, index) => {
+        if (index < currentStep) {
+          step.classList.add('completed');
+          step.classList.remove('active');
+        } else if (index === currentStep - 1) {
+          step.classList.add('active');
+          step.classList.remove('completed');
+        } else {
+          step.classList.remove('active', 'completed');
+        }
+      });
+    }
+
+    function showStep(step) {
+      document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+      document.querySelector(`.form-step[data-step="${step}"]`).classList.add('active');
+
+      // Update header
+      const header = document.querySelector('.form-header .step-title');
+      header.textContent = `Paso ${step}:`;
+
+      // Update buttons
+      if (step === 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.flex = '1';
+      } else {
+        prevBtn.style.display = 'flex';
+        nextBtn.style.flex = '1';
+      }
+
+      if (step === totalSteps) {
+        nextBtn.textContent = 'ENVIAR';
+        nextBtn.classList.add('btn-submit');
+      } else {
+        nextBtn.textContent = 'SIGUIENTE →';
+        nextBtn.classList.remove('btn-submit');
+      }
+
+      updateProgress();
+      checkStepCompletion();
+    }
+
+    function checkStepCompletion() {
+      let isComplete = false;
+
+      switch ( currentStep ) {
+        case 1:
+          isComplete = document.querySelector('input[name="asesoria"]:checked') !== null
+          break;
+        case 2:
+          isComplete = document.querySelector('input[name="presupuesto"]:checked') !== null
+          break;
+        case 3:
+          isComplete = document.querySelector('input[name="edad"]:checked') !== null
+          break;
+        case 4:
+          const name = document.getElementById( 'name' ).value.trim()
+          const phone = document.getElementById( 'phone' ).value.trim()
+          const email = document.getElementById( 'email' ).value.trim()
+
+          isComplete = name !== '' && /[A-z]+/.test( name ) && phone !== '' && phone.length === 10 && /[0-9]+/.test( phone ) && email !== ''
+          console.log( isComplete )
+          break;
+      }
+
+      nextBtn.disabled = !isComplete;
+    }
+
+    // Add event listeners for form inputs
+    document.querySelectorAll('input[type="radio"]').forEach(radio => {
+      radio.addEventListener('change', checkStepCompletion);
+    });
+
+    document.getElementById('name').addEventListener('input', checkStepCompletion);
+    document.getElementById('phone').addEventListener('input', checkStepCompletion);
+    document.getElementById('email').addEventListener('input', checkStepCompletion);
+
+    nextBtn.addEventListener('click', () => {
+      if (currentStep < totalSteps) {
+        // Save current step data
+        const currentStepEl = document.querySelector(`.form-step[data-step="${currentStep}"]`);
+        const selectedRadio = currentStepEl.querySelector('input[type="radio"]:checked');
+        if (selectedRadio) {
+          formData[selectedRadio.name] = selectedRadio.value;
+        }
+
+        currentStep++;
+        showStep(currentStep);
+      } else {
+        // Submit form
+        formData.name = document.getElementById('name').value;
+        formData.phone = document.getElementById('phone').value;
+        formData.email = document.getElementById('email').value;
+
+        console.log( 'Form submitted:', formData )
+        window.open(
+          `https://cal.com/dev274/30min?name=${ 
+          formData.name 
+          }&email=${ formData.email }&attendeePhoneNumber=52${ 
+          formData.phone 
+          }&notes=asesoria ${ 
+          formData.asesoria 
+          } edad ${ 
+           formData.edad 
+          } presupuesto ${ 
+          formData.presupuesto 
+          }`, 
+          '_blank' )
+
+      }
+    });
+
+    prevBtn.addEventListener('click', () => {
+      if (currentStep > 1) {
+        currentStep--;
+        showStep(currentStep);
+      }
+    });
+
+    // Initialize
+    showStep(currentStep);
+
+    // hamburguer
+
+    const hamburguer = document.querySelector('.menu-toggle'),
+      nav = document.querySelector('.nav-links')
+    let flag = false
+    hamburguer.addEventListener('click', function () {
+      if (!flag) {
+        nav.classList.add('open')
+        nav.classList.remove('close')
+        this.setAttribute('aria-expanded', true)
+        flag = !flag
+      } else {
+        nav.classList.add('close')
+        nav.classList.remove('open')
+        this.setAttribute('aria-expanded', false )
+        flag = !flag
+      }
+    })
+    //ctabutton 
+
+    // const ctaBtn = document.querySelector('.cta-button'),
+    //   ctaBtn2 = document.querySelector( '#btn_2' ),
+    //   ctaBtn3 = document.querySelector( '#btn_3' ),
+    //   ctaBtn4 = document.querySelector( '#btn_4' )
+      
+
+    //  function openForm() {
+    //   if ( calcom.classList.contains('open') ) {
+    //     window.scrollTo({
+    //       behavior: 'smooth',
+    //       top: 0
+    //     })
+    //   } else {
+    //     calcom.classList.add('open')
+    //     window.scrollTo({
+    //       behavior: 'smooth',
+    //       top: 0
+    //     })
+    //   }
+    // }
+
+    // ctaBtn.addEventListener('click', openForm )
+    // ctaBtn2.addEventListener( 'click', openForm )
+    // ctaBtn3.addEventListener( 'click', openForm )
+    // ctaBtn4.addEventListener( 'click', openForm )
+
+  </script>
+</body>
+
+</html>
